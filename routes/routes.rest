@@ -1,11 +1,15 @@
-LOCALHOST
-Get all users http://localhost:3000/users
+# LOCALHOST
+### Get all users
+GET http://localhost:3000/users;    
 
-Get user by id http://localhost:3000/users/65a1ad1ecd5037732f3bf63e
+### Get user by id 
+GET http://localhost:3000/users/65a1ad1ecd5037732f3bf63e
 
 
-DEPLOYMENT via Render
+# DEPLOYMENT via Render
 
-Get all users https://project1-3lo2.onrender.com/users
+### Get all users 
+GET https://project1-3lo2.onrender.com/users
 
-Get user by id https://project1-3lo2.onrender.com/users/65a1ad1ecd5037732f3bf63e
+### Get user by id 
+GET https://project1-3lo2.onrender.com/users/65a1ad1ecd5037732f3bf63e
