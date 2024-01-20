@@ -8,7 +8,7 @@
   "host": "project1-3lo2.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
@@ -159,8 +159,5 @@
         }
       }
     }
-  },
-  "schema": [
-    "https"
-  ]
+  }
 }
