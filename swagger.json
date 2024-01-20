@@ -5,7 +5,7 @@
     "description": "Contacts project1",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "project1-3lo2.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
@@ -23,6 +23,7 @@
     },
     "/users/": {
       "get": {
+        "summary": "Get all users",
         "description": "",
         "produces": [
           "application/json"
@@ -34,6 +35,7 @@
         }
       },
       "post": {
+        "summary": "Create a new user",
         "description": "",
         "parameters": [
           {
@@ -73,6 +75,7 @@
     },
     "/users/{id}": {
       "get": {
+        "summary": "Get users by id",
         "description": "",
         "produces": [
           "application/json"
@@ -92,6 +95,7 @@
         }
       },
       "put": {
+        "summary": "Update users by id",
         "description": "",
         "parameters": [
           {
@@ -135,6 +139,7 @@
         }
       },
       "delete": {
+        "summary": "Delete users by id",
         "description": "",
         "parameters": [
           {
@@ -154,5 +159,8 @@
         }
       }
     }
-  }
+  },
+  "schema": [
+    "https"
+  ]
 }
