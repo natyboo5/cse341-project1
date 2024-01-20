@@ -3,7 +3,7 @@
 GET http://localhost:3000/users  
 
 ### Get user by id 
-GET http://localhost:3000/users/65a1ad1ecd5037732f3bf63e
+GET http://localhost:3000/users/65ab6e822ebf4df31e61c301
 
 
 # DEPLOYMENT via Render
@@ -12,4 +12,31 @@ GET http://localhost:3000/users/65a1ad1ecd5037732f3bf63e
 GET https://project1-3lo2.onrender.com/users
 
 ### Get user by id 
-GET https://project1-3lo2.onrender.com/users/65a1ad1ecd5037732f3bf63e
+GET https://project1-3lo2.onrender.com/users/65ab6e822ebf4df31e61c301
+
+### Create a new user
+POST https://project1-3lo2.onrender.com/users HTTP/1.1 
+content-type: application/json
+
+{
+"firstName": "Diana",
+"lastName": "Martinez",
+"email": "any@email.com",
+"favoriteColor": "green",
+"birthday":"04.21.1986"
+}
+
+###Delete a user
+DELETE https://project1-3lo2.onrender.com/users/65ab6e822ebf4df31e61c301 
+
+### Update user by id
+PUT https://project1-3lo2.onrender.com/users/65ab6e822ebf4df31e61c301  HTTP/1.1 
+content-type: application/json
+
+{
+"firstName": "Carlos",
+"lastName": "Perez",
+"email": "cperez@email.com",
+"favoriteColor": "black",
+"birthday":"08.01.1986"
+}
